@@ -1,1 +1,29 @@
 
+<!DOCTYPE html>
+<html>
+
+<head>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Sender</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <label for="receiverEmail">Receiver Email:</label>
+    <input type="email" id="receiverEmail" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" rows="4" required></textarea>
+
+    <button onclick="sendEmail()">Send Email</button>
+  </div>
+  <script src="server.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>
